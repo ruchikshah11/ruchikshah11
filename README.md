@@ -63,12 +63,12 @@ I specialize in **SharePoint solutions**, **.NET/C# development**, and **workflo
 ## 🚀 Featured Projects
 
 <p align="center">
-  <a href="https://github.com/ruchikshah11/dev-toolbox"><img width="410" src="https://github-readme-stats.vercel.app/api/pin/?username=ruchikshah11&repo=dev-toolbox&hide_border=true&bg_color=0D1117&title_color=0078D4&icon_color=00B4D8&text_color=c9d1d9" alt="dev-toolbox" /></a>
-  <a href="https://github.com/ruchikshah11/sharepoint-dummy-data-generator"><img width="410" src="https://github-readme-stats.vercel.app/api/pin/?username=ruchikshah11&repo=sharepoint-dummy-data-generator&hide_border=true&bg_color=0D1117&title_color=0078D4&icon_color=00B4D8&text_color=c9d1d9" alt="sharepoint-dummy-data-generator" /></a>
+  <a href="https://github.com/ruchikshah11/dev-toolbox"><img width="410" src="https://github-stats-extended.vercel.app/api/pin/?username=ruchikshah11&repo=dev-toolbox&hide_border=true&bg_color=0D1117&title_color=0078D4&icon_color=00B4D8&text_color=c9d1d9" alt="dev-toolbox" /></a>
+  <a href="https://github.com/ruchikshah11/sharepoint-dummy-data-generator"><img width="410" src="https://github-stats-extended.vercel.app/api/pin/?username=ruchikshah11&repo=sharepoint-dummy-data-generator&hide_border=true&bg_color=0D1117&title_color=0078D4&icon_color=00B4D8&text_color=c9d1d9" alt="sharepoint-dummy-data-generator" /></a>
 </p>
 <p align="center">
-  <a href="https://github.com/ruchikshah11/academic-monitoring-system"><img width="410" src="https://github-readme-stats.vercel.app/api/pin/?username=ruchikshah11&repo=academic-monitoring-system&hide_border=true&bg_color=0D1117&title_color=0078D4&icon_color=00B4D8&text_color=c9d1d9" alt="academic-monitoring-system" /></a>
-  <a href="https://github.com/ruchikshah11/local-share"><img width="410" src="https://github-readme-stats.vercel.app/api/pin/?username=ruchikshah11&repo=local-share&hide_border=true&bg_color=0D1117&title_color=0078D4&icon_color=00B4D8&text_color=c9d1d9" alt="local-share" /></a>
+  <a href="https://github.com/ruchikshah11/academic-monitoring-system"><img width="410" src="https://github-stats-extended.vercel.app/api/pin/?username=ruchikshah11&repo=academic-monitoring-system&hide_border=true&bg_color=0D1117&title_color=0078D4&icon_color=00B4D8&text_color=c9d1d9" alt="academic-monitoring-system" /></a>
+  <a href="https://github.com/ruchikshah11/local-share"><img width="410" src="https://github-stats-extended.vercel.app/api/pin/?username=ruchikshah11&repo=local-share&hide_border=true&bg_color=0D1117&title_color=0078D4&icon_color=00B4D8&text_color=c9d1d9" alt="local-share" /></a>
 </p>
 
 <p align="center"><img width="100%" height="4" src="https://capsule-render.vercel.app/api?type=rect&color=0:0078D4,100:00B4D8&height=4" alt="" /></p>
@@ -76,8 +76,8 @@ I specialize in **SharePoint solutions**, **.NET/C# development**, and **workflo
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ruchikshah11&show_icons=true&count_private=true&hide_border=true&rank_icon=github&bg_color=0D1117&title_color=0078D4&icon_color=00B4D8&text_color=c9d1d9" alt="Ruchik's GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ruchikshah11&layout=compact&hide_border=true&bg_color=0D1117&title_color=0078D4&text_color=c9d1d9" alt="Top languages" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api?username=ruchikshah11&show_icons=true&count_private=true&hide_border=true&rank_icon=github&bg_color=0D1117&title_color=0078D4&icon_color=00B4D8&text_color=c9d1d9" alt="Ruchik's GitHub stats" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=ruchikshah11&layout=compact&hide_border=true&bg_color=0D1117&title_color=0078D4&text_color=c9d1d9" alt="Top languages" />
 </p>
 
 <p align="center">
@@ -100,7 +100,7 @@ I specialize in **SharePoint solutions**, **.NET/C# development**, and **workflo
 ## 🏆 Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ruchikshah11&no-frame=true&row=1&column=7&title_color=0078D4&icon_color=00B4D8&text_color=c9d1d9&bg_color=0D1117" alt="GitHub trophies" />
+  <img src="https://github-trophies.vercel.app/?username=ruchikshah11&no-frame=true&row=1&column=7&title_color=0078D4&icon_color=00B4D8&text_color=c9d1d9&bg_color=0D1117" alt="GitHub trophies" />
 </p>
 
 <p align="center"><img width="100%" height="4" src="https://capsule-render.vercel.app/api?type=rect&color=0:0078D4,100:00B4D8&height=4" alt="" /></p>
