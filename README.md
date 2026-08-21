@@ -93,11 +93,9 @@ I specialize in **SharePoint solutions**, **.NET/C# development**, and **workflo
 ## 📈 Recent Activity
 
 <!--START_SECTION:activity-->
-- ❗ closed an issue in [ruchikshah11/temp](https://github.com/ruchikshah11/temp)
-- ❗ opened an issue in [ruchikshah11/temp](https://github.com/ruchikshah11/temp)
-- 🎉 Created branch in [ruchikshah11/yml-scripts](https://github.com/ruchikshah11/yml-scripts)
-- 🔨 Pushed null commit(s) to [ruchikshah11/yml-scripts](https://github.com/ruchikshah11/yml-scripts)
-- 🔨 Pushed null commit(s) to [ruchikshah11/ruchikshah11](https://github.com/ruchikshah11/ruchikshah11)
+- 🔨 Pushed null commit(s) to [ruchikshah11/logistics](https://github.com/ruchikshah11/logistics)
+- 🔨 Pushed null commit(s) to [ruchikshah11/hospital](https://github.com/ruchikshah11/hospital)
+- 🔨 Pushed null commit(s) to [ruchikshah11/student-alcohol-consumption-analysis](https://github.com/ruchikshah11/student-alcohol-consumption-analysis)
 <!--END_SECTION:activity-->
 
 <p align="center"><img width="100%" height="4" src="https://capsule-render.vercel.app/api?type=rect&color=0:0078D4,100:00B4D8&height=4" alt="" /></p>
