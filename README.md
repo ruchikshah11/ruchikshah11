@@ -111,7 +111,7 @@ I specialize in **SharePoint solutions**, **.NET/C# development**, and **workflo
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ruchikshah11/ruchikshah11/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ruchikshah11/ruchikshah11/output/github-snake.svg" />
-    <img alt="Snake animation" src="https://raw.githubusercontent.com/ruchikshah11/ruchikshah11/output/github-snake.svg" />
+    <img alt="Snake animation" width="100%" src="https://raw.githubusercontent.com/ruchikshah11/ruchikshah11/output/github-snake.svg" />
   </picture>
 </p>
 

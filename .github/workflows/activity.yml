@@ -13,6 +13,45 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: jamesgeorge007/github-activity-readme@main
+
+      - name: Fetch recent activity and update README
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ruchikshah11
+        run: |
+          set -e
+          events=$(curl -s -H "Authorization: token $GH_TOKEN" "https://api.github.com/users/$GH_USER/events/public?per_page=30")
+
+          lines=$(echo "$events" | jq -r '
+            .[] | select(.type=="PushEvent" or .type=="PullRequestEvent" or .type=="IssuesEvent" or .type=="WatchEvent" or .type=="CreateEvent" or .type=="ForkEvent" or .type=="ReleaseEvent")
+            | .repo.name as $repo
+            | if .type=="PushEvent" then "🔨 Pushed \(.payload.size) commit(s) to [\($repo)](https://github.com/\($repo))"
+              elif .type=="PullRequestEvent" then "🔀 \(.payload.action) a pull request in [\($repo)](https://github.com/\($repo))"
+              elif .type=="IssuesEvent" then "❗ \(.payload.action) an issue in [\($repo)](https://github.com/\($repo))"
+              elif .type=="WatchEvent" then "⭐ Starred [\($repo)](https://github.com/\($repo))"
+              elif .type=="CreateEvent" then "🎉 Created \(.payload.ref_type) in [\($repo)](https://github.com/\($repo))"
+              elif .type=="ForkEvent" then "🍴 Forked [\($repo)](https://github.com/\($repo))"
+              elif .type=="ReleaseEvent" then "🏷️ Released \(.payload.release.tag_name // "a new version") in [\($repo)](https://github.com/\($repo))"
+              else empty end
+          ' | head -n 5)
+
+          if [ -z "$lines" ]; then
+            lines="_No recent public activity._"
+          fi
+
+          block=$(printf '%s\n' "$lines" | sed 's/^/- /')
+
+          awk -v block="$block" '
+            BEGIN { skip=0 }
+            /<!--START_SECTION:activity-->/ { print; print block; skip=1; next }
+            /<!--END_SECTION:activity-->/ { skip=0 }
+            skip==0 { print }
+          ' README.md > README.md.tmp && mv README.md.tmp README.md
+
+      - name: Commit changes
+        run: |
+          git config user.name "Ruchik Shah"
+          git config user.email "ruchikshah11@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: update recent activity"
+          git push
