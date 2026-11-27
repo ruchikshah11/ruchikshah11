@@ -93,8 +93,7 @@ I specialize in **SharePoint solutions**, **.NET/C# development**, and **workflo
 ## 📈 Recent Activity
 
 <!--START_SECTION:activity-->
-- 🔨 Pushed null commit(s) to [ruchikshah11/ancient-antiquity](https://github.com/ruchikshah11/ancient-antiquity)
-- 🎉 Created branch in [ruchikshah11/ancient-antiquity](https://github.com/ruchikshah11/ancient-antiquity)
+- _No recent public activity._
 <!--END_SECTION:activity-->
 
 <p align="center"><img width="100%" height="4" src="https://capsule-render.vercel.app/api?type=rect&color=0:0078D4,100:00B4D8&height=4" alt="" /></p>
